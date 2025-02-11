@@ -1,0 +1,53 @@
+<!--/**
+* Made by: Dani Technology (Full Stack Engineer)
+* Created on: January 10, 2024
+* Contact developer:
+* - WhatsApp: +62 838-3499-4479 or +62 823-2066-7363
+* - Email: dani.technology.id@gmail.com
+* - GitHub: https://github.com/dani-techno
+*/-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hitung Umur</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="./assets/css/style.css?v=1.0">
+  <script src="./assets/js/tailwind-config.js"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300">
+  <div class="min-h-screen flex items-center justify-center px-4">
+    <div class="w-full max-w-md bg-white dark:bg-gray-800 rounded-xl shadow-md p-8">
+      <h1 class="text-3xl font-bold text-center text-gray-800 dark:text-gray-200 mb-6">Hitung Umur Anda</h1>
+      <p class="text-center text-gray-600 dark:text-gray-400 mb-8">
+        Masukkan tahun lahir Anda di bawah untuk mengetahui umur Anda saat ini.
+      </p>
+
+      <form id="formAge" class="space-y-6">
+        <div class="relative">
+          <label for="yearBirth" class="absolute -top-2.5 left-3 bg-white dark:bg-gray-800 px-2 text-sm font-medium text-gray-600 dark:text-gray-400">Tahun Lahir</label>
+          <input
+            type="number"
+            placeholder="Contoh: 2000"
+            min="1900"
+            max="2100"
+            id="yearBirth"
+            class="block w-full rounded-lg border border-gray-300 dark:border-gray-700 bg-gray-50 dark:bg-gray-700 text-gray-900 dark:text-gray-200 px-4 py-3 shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+            required
+          />
+        </div>
+
+        <button type="submit" class="w-full py-3 rounded-lg bg-blue-500 hover:bg-blue-600 dark:hover:bg-blue-400 text-white text-lg font-semibold transition-colors duration-300">
+          Hitung Umur
+        </button>
+      </form>
+
+      <div id="result" class="mt-6 text-center"></div>
+    </div>
+  </div>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
