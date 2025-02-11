@@ -81,4 +81,4 @@ Jika ingin berkontribusi pada proyek ini:
 ---
 
 ## **Lisensi**
-Proyek ini menggunakan lisensi [MIT](LICENSE). Silakan gunakan dan modifikasi sesuai kebutuhan.
+Proyek ini menggunakan lisensi [MIT](LICENSE.txt). Silakan gunakan dan modifikasi sesuai kebutuhan.
